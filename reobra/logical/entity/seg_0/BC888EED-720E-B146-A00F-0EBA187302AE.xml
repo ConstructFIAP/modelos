@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC888EED-720E-B146-A00F-0EBA187302AE" name="Lojas">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-12 13:58:13 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>lojas</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D3F56DEC-DFE1-BA69-49B7-CE6DAFF8E218">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-12 22:35:06 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E383F613-C499-4831-7DB5-25D51B5E339A">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-12 22:35:30 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep_id" id="4D2D7BD1-0B55-947C-B002-1CEDF0C71B14">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-12 22:35:58 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36012F71-42DF-F44B-E466-9B289DAA12BD" name="Lojas PK">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-12 22:35:24 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3F56DEC-DFE1-BA69-49B7-CE6DAFF8E218</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

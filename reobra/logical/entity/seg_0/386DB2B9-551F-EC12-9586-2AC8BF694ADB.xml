@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="386DB2B9-551F-EC12-9586-2AC8BF694ADB" name="Clientes">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-12 13:01:36 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>clientes</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DC59503B-974A-225A-2C64-91E1256DB8E7">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-25 22:53:48 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="CB60C9B9-9112-70E5-D3B1-3724C8E89698">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-25 23:18:58 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="9F19242E-4776-93B0-94EA-1713E592B4FC">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-25 22:54:35 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="C1DF9A58-2EF0-5B29-496D-BCD280457A06">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-25 23:16:01 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="7C04FB54-7FCD-DFCB-9968-F9E416A9A8EA">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-25 23:17:16 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2661EDE2-381B-90E2-FCF6-60C05BF44BAF" name="Clientes PK">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-25 22:55:36 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC59503B-974A-225A-2C64-91E1256DB8E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

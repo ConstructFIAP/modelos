@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="reobra" id="EA823AC8-693C-AB76-8C21-FF732F2BD21A" version="3.5">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-12 12:18:27 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EA823AC8-693C-AB76-8C21-FF732F2BD21A</designId>
+</OSDM_Design>

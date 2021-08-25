@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFA2C1BD-5DA0-B2FD-A33A-A0DC1F525C5C" name="Vendas">
+<createdBy>aveli</createdBy>
+<createdTime>2021-07-12 15:29:01 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>vendas</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1294AD9C-49FD-67DD-B609-AA4E6D547BDC">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-25 02:42:43 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto_id" id="7F7DBCA0-F94E-0AE4-3D6F-1C116E9DB2E5">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-25 03:47:43 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="151E887B-9255-70AD-63D2-B29BAD3E6924">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-25 03:41:02 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="E391A8B8-8A31-5F82-0853-564C39A6CB14">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-25 03:46:08 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BF6C49E-3EAE-E17B-F58A-2F5C58994D40" name="Vendas PK">
+<createdBy>aveli</createdBy>
+<createdTime>2021-08-25 03:40:57 UTC</createdTime>
+<ownerDesignName>reobra</ownerDesignName>
+<engineerTo>
+<item key="5FDE7565-F872-8A2E-F9E9-8C9756C319E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1294AD9C-49FD-67DD-B609-AA4E6D547BDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
